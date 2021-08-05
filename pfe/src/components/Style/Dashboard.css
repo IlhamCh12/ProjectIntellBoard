@@ -1,0 +1,57 @@
+.slick-prev:before {
+    content: url("../../assets/previous2.svg");
+    color: black;
+    font-size: 30px;
+  }
+  
+  .slick-next:before {
+    content: url("../../assets/next2.svg");
+    color: black;
+    font-size: 30px;
+  }
+  .my-masonry-grid {
+    display: -webkit-box; /* Not needed if autoprefixing */
+    display: -ms-flexbox; /* Not needed if autoprefixing */
+    display: flex;
+    margin-left: -30px; /* gutter size offset */
+    width: auto;
+  }
+  .my-masonry-grid_column {
+    padding-left: 30px; /* gutter size */
+    background-clip: padding-box;
+  }
+  
+  /* Style your items */
+  .my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+    background: white;
+    margin-bottom: 30px;
+  }
+  h4 {
+      overflow: hidden;
+      text-align: center;
+    }
+    
+    h4:before,
+    h4:after {
+      background-color: #A6A6A6;
+      content: "_";
+      display: inline-block;
+      height: 1px;
+      position: relative;
+      vertical-align: middle;
+      width: 50%;
+    }
+    
+    h4:before {
+      right: 0.5em;
+      margin-left: -50%;
+    }
+    
+    h4:after {
+      left: 0.5em;
+      margin-right: -50%;
+    }
+
+
+  
+  

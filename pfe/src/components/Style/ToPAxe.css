@@ -1,0 +1,5 @@
+@media screen and (min-width: 415px){
+    .root {
+      flex-direction: row;
+    }
+  }
